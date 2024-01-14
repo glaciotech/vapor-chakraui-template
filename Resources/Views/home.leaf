@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Uncomment to debug ReactJS -->
+    <!-- <script src="http://192.168.5.145:8097"></script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- App Mount Point -->
+    <div id="app"></div>
+    
+    <!-- Bundled dependencies using webpack -->
+    <script src="/bundle.js"></script>
+    <script type="text/babel" src="index.js"></script>
+</body>
+
+</html>
